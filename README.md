@@ -7,7 +7,7 @@ Proxmox now supports setting the VMID range via `datacenter.cfg`.
 ---
 
 ## 🔧 What This Script Does
-
+``
 - Prompts for a **new starting VMID** (e.g. 200)
 - Updates `/etc/pve/datacenter.cfg` with:
   ```
@@ -17,14 +17,6 @@ Proxmox now supports setting the VMID range via `datacenter.cfg`.
 - Displays the updated config and the next available VMID
 
 ---
-
-## ✅ Example Usage
-
-Run the script directly from GitHub:
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/<your-username>/proxmox-utils/main/set-vmid-start.sh)"
-```
 
 Example prompt:
 
