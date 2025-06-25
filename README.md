@@ -4,6 +4,9 @@ This script allows you to set the **starting VMID range** for automatically assi
 
 Proxmox now supports setting the VMID range via `datacenter.cfg`.
 
+ bash -c "$(curl -fsSL https://raw.githubusercontent.com/liosmar123/proxmox-utils/main/set-vmid-start.sh)"
+
+
 ---
 
 ## 🔧 What This Script Does
