@@ -14,11 +14,9 @@ To run the script, use:
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/liosmar123/proxmox-utils/main/set-vmid-start.sh)"
  ```
-
 ---
-
 ## 🔧 What This Script Does
-``
+
 - Prompts for a **new starting VMID** (e.g. 200)
 - Updates `/etc/pve/datacenter.cfg` with:
   ```
